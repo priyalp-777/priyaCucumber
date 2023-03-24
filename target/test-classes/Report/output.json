@@ -1,0 +1,144 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3682320600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the application",
+            "match": {
+              "location": "Login.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 30619466900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username and password",
+            "match": {
+              "location": "Login.user_enter_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24708289500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click login button",
+            "match": {
+              "location": "Login.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3223600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sees the Home page of application",
+            "match": {
+              "location": "Login.user_sees_the_Home_page_of_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.runtime.CucumberException: Step [user enter the search product] is defined with 1 parameters at \u0027org.stepdefinition.Addcart.user_enter_the_search_product(String) in file:/C:/Users/rapri/eclipse-workspace/Kidly/target/test-classes/\u0027.\nHowever, the gherkin step has 0 arguments.\nStep text: user enter the search product\r\n\tat cucumber.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:84)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:36)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\r\n",
+              "duration": 2536000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user enter the search product",
+            "match": {
+              "location": "Addcart.user_enter_the_search_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 600300,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user click search button",
+            "match": {
+              "location": "Search.user_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 536500,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user sees the result based on search selected product",
+            "match": {
+              "location": "Addcart.user_sees_the_result_based_on_search_selected_product()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-21T12:14:39.498Z",
+        "line": 19,
+        "name": "To add the product to add to cart page",
+        "description": "",
+        "id": "to-verify-the-functionality-to-add-to-cart-of-the-application;to-add-the-product-to-add-to-cart-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "user add the product \"Brambling Hedgehog\" to add to cart",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 499900,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user sees the cart page",
+            "match": {
+              "location": "Addcart.user_sees_the_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To verify the functionality to add to cart of the application",
+    "description": "",
+    "id": "to-verify-the-functionality-to-add-to-cart-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Addcart.feature",
+    "tags": []
+  }
+]
