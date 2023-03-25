@@ -1,4 +1,4 @@
-
+@smoke
 Feature: To verify the login functionality in application
 
 Background:

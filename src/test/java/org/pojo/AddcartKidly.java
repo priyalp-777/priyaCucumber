@@ -35,7 +35,7 @@ public class AddcartKidly extends BaseClass {
 	@FindBy(xpath="//button[@type='submit']")
 	private WebElement searchclick;
 	
-	@FindBy(xpath="//span[text()='Brambling Hedgehog']")
+	@FindBy(xpath="//span[text()='Fuzzkin Lamb'] ")
 	private WebElement product;
 	
 	@FindBy(xpath="//input[@value='Add to basket']")

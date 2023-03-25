@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3682320600,
+              "duration": 5997436300,
               "status": "passed"
             },
             "line": 5,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 30619466900,
+              "duration": 8396723300,
               "status": "passed"
             },
             "line": 6,
@@ -35,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 24708289500,
+              "duration": 52826600,
               "status": "passed"
             },
             "line": 7,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 3223600,
+              "duration": 1457900,
               "status": "passed"
             },
             "line": 8,
@@ -59,21 +59,20 @@
           },
           {
             "result": {
-              "error_message": "cucumber.runtime.CucumberException: Step [user enter the search product] is defined with 1 parameters at \u0027org.stepdefinition.Addcart.user_enter_the_search_product(String) in file:/C:/Users/rapri/eclipse-workspace/Kidly/target/test-classes/\u0027.\nHowever, the gherkin step has 0 arguments.\nStep text: user enter the search product\r\n\tat cucumber.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:84)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:36)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)\r\n",
-              "duration": 2536000,
-              "status": "failed"
+              "duration": 7272509100,
+              "status": "passed"
             },
             "line": 10,
             "name": "user enter the search product",
             "match": {
-              "location": "Addcart.user_enter_the_search_product(String)"
+              "location": "Addcart.user_enter_the_search_product()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 600300,
-              "status": "skipped"
+              "duration": 34815600,
+              "status": "passed"
             },
             "line": 11,
             "name": "user click search button",
@@ -84,7 +83,293 @@
           },
           {
             "result": {
-              "duration": 536500,
+              "duration": 4407700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user sees the result based on search selected product",
+            "match": {
+              "location": "Addcart.user_sees_the_result_based_on_search_selected_product()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:24:31.789Z",
+        "line": 14,
+        "name": "To add the product to add to cart page",
+        "description": "",
+        "id": "to-verify-the-functionality-to-add-to-cart-of-the-application;to-add-the-product-to-add-to-cart-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4953253800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user add the product to add to cart",
+            "match": {
+              "location": "Addcart.user_add_the_product_to_add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1569900,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user sees the cart page",
+            "match": {
+              "location": "Addcart.user_sees_the_cart_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2623505400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the application",
+            "match": {
+              "location": "Login.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7728994500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username and password",
+            "match": {
+              "location": "Login.user_enter_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59922300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click login button",
+            "match": {
+              "location": "Login.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 946000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sees the Home page of application",
+            "match": {
+              "location": "Login.user_sees_the_Home_page_of_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48137969800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the search product",
+            "match": {
+              "location": "Addcart.user_enter_the_search_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22113733400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click search button",
+            "match": {
+              "location": "Search.user_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 896700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user sees the result based on search selected product",
+            "match": {
+              "location": "Addcart.user_sees_the_result_based_on_search_selected_product()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:24:58.550Z",
+        "line": 25,
+        "name": "To increase the count of product in add to cart page",
+        "description": "",
+        "id": "to-verify-the-functionality-to-add-to-cart-of-the-application;to-increase-the-count-of-product-in-add-to-cart-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3083752600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user add the product to add to cart",
+            "match": {
+              "location": "Addcart.user_add_the_product_to_add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id\u003d\u0027quantity_KDS245030101\u0027]\"}\n  (Session info: MicrosoftEdge\u003d111.0.1661.51)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [3e47ec3f0c35d8af4113174a9fa5cc6a, findElement {using\u003dxpath, value\u003d//input[@id\u003d\u0027quantity_KDS245030101\u0027]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.51, ms:edgeOptions: {debuggerAddress: localhost:55898}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\rapri\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55898/devtoo..., se:cdpVersion: 111.0.1661.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3e47ec3f0c35d8af4113174a9fa5cc6a\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.getWrappedElement(Unknown Source)\r\n\tat org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)\r\n\tat java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyInto(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)\r\n\tat java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.evaluate(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.collect(Unknown Source)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:469)\r\n\tat org.utilities.BaseClass.javascriptClick(BaseClass.java:381)\r\n\tat org.stepdefinition.Addcart.user_increase_the_count_in_add_to_cart(Addcart.java:70)\r\n\tat ✽.user increase the count \"2\" in add to cart(file:src/test/resources/Addcart.feature:20)\r\n",
+              "duration": 49039403600,
+              "status": "failed"
+            },
+            "line": 20,
+            "name": "user increase the count \"2\" in add to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Addcart.user_increase_the_count_in_add_to_cart(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 594800,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user sees the cart page with increase count",
+            "match": {
+              "location": "Addcart.user_sees_the_cart_page_with_increase_count()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2471393800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the application",
+            "match": {
+              "location": "Login.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 27626373600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter username and password",
+            "match": {
+              "location": "Login.user_enter_username_and_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25198585900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click login button",
+            "match": {
+              "location": "Login.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1615100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user sees the Home page of application",
+            "match": {
+              "location": "Login.user_sees_the_Home_page_of_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28089414600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter the search product",
+            "match": {
+              "location": "Addcart.user_enter_the_search_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document\n  (Session info: MicrosoftEdge\u003d111.0.1661.51)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [3b32663af43c84ad3a8e453f29521aca, executeScript {script\u003darguments[0].click(), args\u003d[{ELEMENT\u003d981d53eb-6e7b-494b-a661-e32a15078384, element-6066-11e4-a52e-4f735466cecf\u003d981d53eb-6e7b-494b-a661-e32a15078384}]}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.51, ms:edgeOptions: {debuggerAddress: localhost:56816}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\rapri\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56816/devtoo..., se:cdpVersion: 111.0.1661.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 3b32663af43c84ad3a8e453f29521aca\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:472)\r\n\tat org.utilities.BaseClass.javascriptClick(BaseClass.java:381)\r\n\tat org.stepdefinition.Search.user_click_search_button(Search.java:26)\r\n\tat ✽.user click search button(file:src/test/resources/Addcart.feature:11)\r\n",
+              "duration": 22403353500,
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "user click search button",
+            "match": {
+              "location": "Search.user_click_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 651100,
               "status": "skipped"
             },
             "line": 12,
@@ -97,32 +382,53 @@
         ]
       },
       {
-        "start_timestamp": "2023-02-21T12:14:39.498Z",
-        "line": 19,
-        "name": "To add the product to add to cart page",
+        "start_timestamp": "2023-03-25T10:27:11.364Z",
+        "line": 34,
+        "name": "To decrease the count of product in add to cart page",
         "description": "",
-        "id": "to-verify-the-functionality-to-add-to-cart-of-the-application;to-add-the-product-to-add-to-cart-page;;2",
+        "id": "to-verify-the-functionality-to-add-to-cart-of-the-application;to-decrease-the-count-of-product-in-add-to-cart-page;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 1059300,
+              "status": "skipped"
             },
-            "line": 15,
-            "name": "user add the product \"Brambling Hedgehog\" to add to cart",
-            "match": {},
+            "line": 28,
+            "name": "user add the product to add to cart",
+            "match": {
+              "location": "Addcart.user_add_the_product_to_add_to_cart()"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 499900,
+              "duration": 511200,
               "status": "skipped"
             },
-            "line": 16,
-            "name": "user sees the cart page",
+            "line": 29,
+            "name": "user decrease the count \"1\" in add to cart",
             "match": {
-              "location": "Addcart.user_sees_the_cart_page()"
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 24
+                }
+              ],
+              "location": "Addcart.user_decrease_the_count_in_add_to_cart(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 407800,
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user sees the cart page with decrease count",
+            "match": {
+              "location": "Addcart.user_sees_the_cart_page_with_decrease_count()"
             },
             "keyword": "Then "
           }
@@ -139,6 +445,182 @@
     "id": "to-verify-the-functionality-to-add-to-cart-of-the-application",
     "keyword": "Feature",
     "uri": "file:src/test/resources/Addcart.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3270991700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the application",
+            "match": {
+              "location": "Login.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:28:57.181Z",
+        "line": 7,
+        "name": "To verify login using valid credentials",
+        "description": "",
+        "id": "to-verify-the-login-functionality-in-application;to-verify-login-using-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6632565600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter username and password",
+            "match": {
+              "location": "Login.user_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 113604800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user click login button",
+            "match": {
+              "location": "Login.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 840300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user sees the Home page of application",
+            "match": {
+              "location": "Login.user_sees_the_Home_page_of_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2830691600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch the application",
+            "match": {
+              "location": "Login.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-25T10:29:07.210Z",
+        "line": 13,
+        "name": "To verify login using invalid credentials",
+        "description": "",
+        "id": "to-verify-the-login-functionality-in-application;to-verify-login-using-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: MicrosoftEdge\u003d111.0.1661.51)\nBuild info: version: \u00274.7.2\u0027, revision: \u00274d4020c3b7\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_351\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [0ddbcf0d4baf304158075b05dfdc3aeb, findElement {using\u003did, value\u003dEmailAddress}]\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 111.0.1661.51, ms:edgeOptions: {debuggerAddress: localhost:57338}, msedge: {msedgedriverVersion: 111.0.1661.54 (9e410ec23a36..., userDataDir: C:\\Users\\rapri\\AppData\\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57338/devtoo..., se:cdpVersion: 111.0.1661.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 0ddbcf0d4baf304158075b05dfdc3aeb\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy20.sendKeys(Unknown Source)\r\n\tat org.utilities.BaseClass.enterText(BaseClass.java:114)\r\n\tat org.stepdefinition.Login.user_enter_username_and_password_with_invalid(Login.java:64)\r\n\tat ✽.user enter username and password with invalid(file:src/test/resources/Login.feature:14)\r\n",
+              "duration": 30764229100,
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user enter username and password with invalid",
+            "match": {
+              "location": "Login.user_enter_username_and_password_with_invalid()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 354700,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user click login button",
+            "match": {
+              "location": "Login.user_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 369600,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user sees the error message",
+            "match": {
+              "location": "Login.user_sees_the_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To verify the login functionality in application",
+    "description": "",
+    "id": "to-verify-the-login-functionality-in-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]
